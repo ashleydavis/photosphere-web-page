@@ -533,7 +533,7 @@ h1, h2 {
 
 /* ─── Download section (animated aurora background) ─ */
 .section-download {
-  background: #ffffff;
+  background: linear-gradient(180deg, rgba(238, 242, 255, 0.60) 0%, #ffffff 100%);
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -688,7 +688,7 @@ h1, h2 {
   box-shadow: inset 0 1px 0 rgba(255,255,255,0.95), 0 12px 28px rgba(60,60,120,0.09);
 }
 
-/* ─── Developer / build-from-source section ─────── */
+/* ─── Developer / under-the-hood section ─────── */
 .section-dev {
   background: linear-gradient(180deg,
     rgba(15, 23, 42, 0.03) 0%,
@@ -800,7 +800,7 @@ h1, h2 {
 /* Anchor span — must be relative so the popover can position against it */
 .popover-anchor {
   position: relative;
-  display: inline;
+  display: inline-block;
 }
 
 .device-trigger {
